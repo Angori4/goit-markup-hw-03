@@ -118,6 +118,10 @@ ul {
             margin-top: 50px;
                 }
     
+        .advantage-list-list {
+            display: flex;
+        }
+
         .list-item {
             list-style: none;}
 
@@ -139,7 +143,7 @@ ul {
                                     
         .list-item {
             margin-right: 30px;
-            margin-bottom: 30px;
+            
         }
                                     
         .contact-list-item:last-child,
@@ -271,6 +275,7 @@ ul {
             align-items: flex-end;}
 
         .working {
+            padding-top: 94px;
             padding-bottom: 94px;
         }
         
@@ -296,7 +301,7 @@ ul {
         .caption {
             color: var(--title-color);
             margin-top: 0px;
-            margin-bottom: 0px;
+            margin-bottom: 50px;
             font-weight: 700;
             font-size: 36px;
             line-height: 1.17;
